@@ -1,4 +1,4 @@
-# YouTube Listener Userscript
+# YouTube Listener
 
 ## Description
 
