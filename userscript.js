@@ -12,6 +12,11 @@
     'use strict';
 
     const styles = `
+    @font-face {
+        font-family: 'MyCloud-SF-Pro-Rounded-Semibold';
+        src: url('https://ourcloud2.vercel.app/fonts/MyCloud-SF-Pro-Rounded-Semibold.ttf') format('truetype');
+    }
+
     #macos-music-system {
         width: 400px;
         height: 400px;
@@ -29,7 +34,9 @@
         overflow: hidden;
         transition: all 0.3s ease;
         display: none;
+        font-family: 'MyCloud-SF-Pro-Rounded-Semibold', sans-serif;
     }
+
     #macos-title-bar {
         height: 30px;
         background: #ececec;
@@ -38,7 +45,9 @@
         padding: 0 10px;
         border-top-left-radius: 12px;
         border-top-right-radius: 12px;
+        font-family: 'MyCloud-SF-Pro-Rounded-Semibold', sans-serif;
     }
+
     .macos-button {
         width: 12px;
         height: 12px;
@@ -47,6 +56,16 @@
         cursor: pointer;
         transition: all 0.3s ease;
     }
+
+    body, button, input {
+        font-family: 'MyCloud-SF-Pro-Rounded-Semibold', sans-serif;
+    }
+
+    const styleSheet = document.createElement('style');
+    styleSheet.type = 'text/css';
+    styleSheet.innerText = styles;
+    document.head.appendChild(styleSheet);
+})();
     .macos-button.red {
         background: #ff5f57;
     }
