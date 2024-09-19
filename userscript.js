@@ -1,8 +1,8 @@
 // ==UserScript==
-// @name         DUOS Music Player
+// @name         Youtube Music Player
 // @namespace    http://tampermonkey.net/
 // @version      BETA 0.0.6
-// @description  DUOS Music Player with macOS style
+// @description  Music Player with macOS style
 // @author       Sky @blurskydev
 // @match        *://*/*
 // @grant        none
