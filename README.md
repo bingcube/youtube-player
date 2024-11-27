@@ -36,3 +36,6 @@ YouTube Listener is a userscript designed to enhance your YouTube experience by 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](https://github.com/blurskydev/youtube-listener/blob/main/LICENSE) file for more details.
+
+
+![Alt](https://repobeats.axiom.co/api/embed/87fa18254422d353f8cc06572848b5eb95a77e82.svg "Repobeats analytics image")
